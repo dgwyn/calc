@@ -6,4 +6,5 @@ run:
 fmt:
 	go fmt
 test:
+	make fmt
 	go test
