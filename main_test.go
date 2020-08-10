@@ -5,8 +5,9 @@ import (
 )
 
 func TestSum(t *testing.T) {
-	sm := sum(5, 5)
-	if sm != 10 {
-		t.Errorf("Fail! sum(5,5) = %d, want 10, got", sm)
+	sm := sum(4, 5)
+	want := 9
+	if sm != want {
+		t.Errorf("Fail! sm = %d, want %d", sm, want)
 	}
 }
